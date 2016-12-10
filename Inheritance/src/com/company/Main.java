@@ -2,15 +2,15 @@ package com.company;
 import java.util.Arrays;
 public class Main {
     //-----------------------------------------------------------------------------
-    public static Figure maxSquare(Figure[] fs){
-        Figure maxf = fs[0];
-        for(int i = 1; i < fs.length; ++i){
-            if(fs[i].getSquare() > maxf.getSquare()){
-                maxf = fs[i];
-            }
-        }
-        return maxf;
-    }
+//    public static Figure maxSquare(Figure[] fs){
+//        Figure maxf = fs[0];
+//        for(int i = 1; i < fs.length; ++i){
+//            if(fs[i].getSquare() > maxf.getSquare()){
+//                maxf = fs[i];
+//            }
+//        }
+//        return maxf;
+//    }
     //-----------------------------------------------------------------------------
     /*
     public static Figure[] sortBySquare(Figure[] fs) {
@@ -31,8 +31,8 @@ public class Main {
 
         System.out.println(Arrays.deepToString(figs));
 
-        Figure max = maxSquare(figs);
-        System.out.println(max);
+//        Figure max = maxSquare(figs);
+//        System.out.println(max);
 
             /*Figure[] sortf = sortBySquare(figs);
        System.out.println(Arrays.deepToString(sortf));
@@ -50,7 +50,7 @@ public class Main {
       System.out.println("Площа кола становить " + f4.getSquare());
       System.out.println("Периметр кола становить " + f4.getPerimeter());
 
-      Figure f5 = new Trapeze(2, 3, 6);
+      Figure f5 = new Trapeze(6, 3, 6);
       System.out.println("Площа трапеції становить " + f5.getSquare());
       System.out.println("Периметр трапеції становить " + f5.getPerimeter());
 //-----------------------------------------------------------------------------
