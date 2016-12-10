@@ -1,5 +1,10 @@
 package com.company;
 import java.util.Arrays;
+/*
+An important feature of object-oriented programs is inheritance—the ability to create classes
+that share the attributes and methods of existing classes, but with more specific features.
+You can look into the following example for inheritance concept. Here we have Figure class extended by other specific class like Circle, Square, Trapeze and Triangle.
+*/
 public class Main {
     //-----------------------------------------------------------------------------
 //    public static Figure maxSquare(Figure[] fs){
