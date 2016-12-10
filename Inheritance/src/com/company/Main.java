@@ -26,7 +26,7 @@ public class Main {
 //-----------------------------------------------------------------------------
     public static void main(String[] args) {
 
-        Figure[] figs = {new Circle(2), new Triangle(3,66,5),
+        Figure[] figs = {new Circle(2), new Triangle(3,6,5),
                 new Square(4), new Trapeze(2, 3, 4)};
 
         System.out.println(Arrays.deepToString(figs));
